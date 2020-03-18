@@ -1,7 +1,7 @@
 
 const first_value = (arr) => {
-    let pi = 0;
     let sum = 0;
+    let pi = 0;
     for (let i = 0; i < arr.length; i++) {
         let value_one = arr[i][pi];
         pi = pi + 1;
@@ -20,6 +20,7 @@ const second_value = (arr) => {
     }
     return sum;
 }
+
 function diagonalDifference(arr) {
 
     let x = first_value(arr);
