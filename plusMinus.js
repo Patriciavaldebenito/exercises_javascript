@@ -43,7 +43,7 @@ function plusMinus(arr) {
             return true;
         }
         else {
-            console.log(" tu lista de numeros, debe tener un largo minimo de 1 y maximo de 100, tu largo es :" + arrLength);
+            console.log(" tu lista de números, debe tener un largo mínimo de 1 y máximo de 100, tu largo es :" + arrLength);
         }
     }
 
@@ -64,7 +64,7 @@ function plusMinus(arr) {
     condition = conditions();
 
     if (!condition) {
-        console.log("tu lista de numeros, contiene numeros decimales, revisa los datos")
+        console.log("tu lista de números, contiene numeros decimales, revisa los datos")
     }
     else {
         for (let i = 0; i < arrLength; i++) {

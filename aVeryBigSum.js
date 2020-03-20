@@ -11,7 +11,7 @@ const aVeryBigSum =ar  => {
                 sum = sum + ar[i];
             }
             else {
-                console.log("ERROR : number greater than ten raised to ten");
+                console.log("number greater than ten raised to ten");
                 sum =0;
             }
         }
